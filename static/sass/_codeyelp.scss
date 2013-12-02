@@ -6,7 +6,9 @@ h1.logo img {
     max-height: 58px;
 }
 
-#content header {
-    visibility: hidden;
-    height: 50px;
+#content {
+    .home header, .find-courses header {
+        visibility: hidden;
+        height: 50px;
+    }
 }
